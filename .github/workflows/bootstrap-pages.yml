@@ -27,7 +27,7 @@ jobs:
 
       - name: Download compiled Mawzoon V5 web build
         run: |
-          curl -fL 'https://sdmntprukwest.oaiusercontent.com/files/00000000-c968-8243-814c-3e98f8d24041/raw?se=2026-10-05T00%3A20%3A12Z&sp=r&sv=2026-02-06&sr=b&scid=0454575d-01c3-5fff-b0b0-a728d14c566b&skoid=e32cbaad-a1eb-4299-9f16-1b364ab43781&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T17%3A51%3A37Z&ske=2026-10-05T17%3A51%3A37Z&sks=b&skv=2026-02-06&sig=9CCq6as8GwdL3SiCTQqA8%2BzOxTsOSOs7Z%2BHgCJzMutQ%3D' -o mawzoon-web.zip
+          curl -fL 'https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-fd9c-8210-b2ac-67ce845ae0fb/raw?se=2026-10-05T00%3A25%3A27Z&sp=r&sv=2026-02-06&sr=b&scid=593d2c81-72c7-524c-a1eb-8cbf8c93ef67&skoid=e32cbaad-a1eb-4299-9f16-1b364ab43781&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T03%3A32%3A53Z&ske=2026-10-05T03%3A32%3A53Z&sks=b&skv=2026-02-06&sig=B%2BsmRzkynm6608QM6sJPFRGo6j2C%2BdHPNrRmCttWPPs%3D' -o mawzoon-web.zip
           rm -rf docs _web
           mkdir _web
           unzip -q mawzoon-web.zip -d _web
